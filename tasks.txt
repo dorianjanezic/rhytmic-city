@@ -3,3 +3,12 @@ define interactions
 wireframing
 HTML,CSS,JS
 Documentation
+
+
+
+
+
+1.Get data
+2.Get to the information in the console
+3.Add p5 canvas to HTML
+start with basic representation of the data
