@@ -12,3 +12,8 @@ Documentation
 2.Get to the information in the console
 3.Add p5 canvas to HTML
 start with basic representation of the data
+
+
+
+(explanation how to change percentage into numbers)
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/parseInt
