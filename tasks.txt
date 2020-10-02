@@ -1,0 +1,4 @@
+collect data (daily passengers between March-September in NY and Mexico City)
+define interactions
+wireframing
+HTML,CSS,JS
