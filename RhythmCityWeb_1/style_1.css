@@ -1,0 +1,76 @@
+body{
+  /*background-image: linear-gradient(to left, black, black 50%, white 50%);*/
+  background-attachment:fixed;
+  background-repeat: no-repeat;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 1rem 1rem;
+}
+
+
+/* TITLE */
+.project_title{
+  text-align:center;
+  text-justify: distribute-all-lines;
+  align-items: center;
+  text-transform: uppercase;
+}
+.project_headingLeft{
+    font-size: 32px;
+    align-items: center;
+    text-align: center;
+}
+
+.project_headingRight{
+  font-size: 32px;
+  color:rgb(219, 219, 219);
+  text-align: center
+}
+
+/*BUTTON #1*/
+
+.dropDown {
+  position: relative;
+  display: inline-block;
+  padding: 1rem 0;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* BUTTON #2*/
+
+.dropDown1 {
+
+  padding: 0rem 1rem;
+}
+
+
+/*DATE SELECTION OPTIONS*/
+
+.options {
+  padding: 0 1rem;
+  align-items: center;
+  text-align: center;
+}
+
+.project_container{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.nameButton{
+  background-color: #12FBD1;
+  color: white;
+  padding: 9px;
+  font-size: 16px;
+  color:black;
+  border: none;
+  cursor: pointer;
+}
