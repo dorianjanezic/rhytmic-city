@@ -13,7 +13,7 @@ window.addEventListener('load', function(){
     let dropdown1 = document.getElementById('subDate-dropdown');
        
         let defaultOption1 = document.createElement('option');
-        defaultOption1.text = 'Choose Month';
+        defaultOption1.text = 'Month';
         dropdown1.add(defaultOption1);
 
         for(let i=0; i<months.length;i++){
@@ -35,7 +35,7 @@ window.addEventListener('load', function(){
         });
 
         
-    //Detecting selection and retieving values
+    //Detecting selection and retieving values (Both me and Yiru don't udnerstand, Enrique please explain)
         dropdown1.addEventListener('change',function(){
         let selectedMonthNumber = dropdown1.selectedIndex+2;
         ridershipData = [];
@@ -49,23 +49,23 @@ window.addEventListener('load', function(){
       
     });
    
-    // 2. button (YEAR)
-    /*
-    let dropdown2 = document.getElementById('year-dropdown');
+    // 2. button (month)
+    
+    let dropdown2 = document.getElementById('lineName-dropdown');
        
         let defaultOption2 = document.createElement('option');
-        defaultOption2.text = 'Choose Year';
+        defaultOption2.text = 'Month';
         dropdown2.add(defaultOption2);
 
-        for(let i=0; i<years.length;i++){
+        for(let i=0; i<months.length;i++){
             let yearOption= document.createElement('option');
-            yearOption.text = years[i];
+            yearOption.text = months[i];
             dropdown2.add(yearOption);
 
         }
         dropdown2.selectedIndex = 0;
 
-        */
+        
         
         /*request.onload = function() {
             if (request.status === 200) {
@@ -121,7 +121,7 @@ window.addEventListener('load', function(){
 
 function setup(){
   
-    createCanvas(600, 400);
+    createCanvas(770, 550);
   
     
    
