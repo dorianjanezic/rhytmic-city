@@ -1,0 +1,151 @@
+body{
+  background-image: linear-gradient(to left, black, black 50%, white 50%);
+  background-attachment:fixed;
+  background-repeat: no-repeat;
+  font-family: 'Teko', sans-serif;
+  margin: 2.5rem;
+}
+
+/* TITLE */
+
+.project_title {
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction:row;
+  width:100%;
+  text-align:center;
+}
+
+.project_headingLeft {
+  color: #1245FB;
+}
+
+.project_headingRight {
+  color: #12FBD1;
+}
+
+
+/* 1. BUTTON */
+
+  .button1 {
+  background-color: #1245FB;
+  color: white;
+  padding: 9px;
+  font-size: 16px;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-family: 'Teko', sans-serif;
+  border-radius: 20px;
+  text-align: center;
+  align-items: center;
+  }
+
+/* RIDERSHIP NUMBER */
+
+  .rider_number {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction:row;
+    width:100%;
+    text-align:center;
+  }
+
+  .rider_number20 {
+    color: #12FBD1;
+    text-align: center;
+  }
+
+  .rider_number19 {
+   color:  #1245FB;
+   text-align: center;
+
+  }
+
+/* 2. BUTTON */
+
+  .button2{
+    background-color: #12FBD1;
+    color: white;
+    padding: 9px;
+    font-size: 16px;
+    color: black;
+    border: none;
+    cursor: pointer;
+    font-family:'Monoton', cursive;
+    border-radius: 20px;
+  }
+
+/* BUTTON 1 & 2 */
+
+.button1_2 {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction:row;
+    width:100%;
+    text-align:center;
+    margin-bottom: 10px;
+  }
+  
+  /* p5 canvases */
+
+  .project_wrapper{
+    display: flex;
+    text-align: center;
+    position: relative;
+    min-height: 200px;
+    overflow: hidden;
+    
+  }
+
+  .canvas_1{
+    flex: 1;
+    position: relative;
+    /*padding-bottom: 50%;*/
+    height: 20%;
+    overflow: hidden;
+  
+  
+  }
+  
+  .canvas_2{
+    flex: 1;
+    position: relative;
+    /*padding-bottom: 50%;*/
+    height: 20%;
+    overflow: hidden;
+  }
+  /* FOOTER */ 
+
+  .gotoEND{
+    width:100%;
+    min-width: 320px;
+    font-size: x-large;
+    font-family: 'Teko', sans-serif;
+    color: #1245FB;
+
+  }
+
+  .team_name {
+    width:100%;
+    min-width: 320px;
+    font-size: x-large;
+    font-family: 'Teko', sans-serif;
+    color:  #12FBD1;
+  }
+
+
+  .project_footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction:row;
+  width:100%;
+  text-align:center;
+  transform: translateY(90px);
+  }
