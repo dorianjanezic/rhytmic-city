@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subway Data</title>
+    <link href="https://fonts.googleapis.com/css2?family=Teko:wght@500&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet"/>
+    <!-- p5 library -->
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.1.9/lib/p5.js"></script>
+
+</head>
+<body>
+    <!--PROJECT TITLE-->
+    <div class="project_title">
+        <h1 class="project_headingLeft">New York Subway Ridership 19'</h1> 
+        <h1 class="project_headingRight">New York Subway Ridership 20'</h1> 
+    </div>
+    <hr>
+
+   <!--BUTTON (SELECT MONTH)-->
+    <div class="button1_2">
+            <select class="button1" id="subDate-dropdown" name="subDate">
+            </select>
+        </div>
+    <h2 id="rider2019_number"class="rider_number">Total ridership 2019:</h2>
+    <h2 id="rider2020_number" class="rider_number">Total ridership 2020:</h2>
+    <!--P5 CANVAS-->   
+    <div class="project_wrapper">
+        <div id="c1" class="canvas_1"></div> 
+    
+        <div id="c2" class="canvas_2"></div>
+        
+    
+    </div>
+
+<!--JAVA-SCRIPT-->   
+
+<script src="app_1.js"></script>
+
+<!--FOOTER-->
+<footer>
+    <div class="project_footer">
+        <h3 class="gotoEND"> Data taken from :https://new.mta.info/coronavirus/ridership </h3>
+        <br>
+        <h3 class="team_name">Enrique, Yiru, Dorian</h3>
+    </div>
+    
+</footer>
+</body>
+
+</html>
+
