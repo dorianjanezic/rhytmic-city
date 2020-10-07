@@ -1,0 +1,128 @@
+body{
+    background-image: linear-gradient(to left, black, black 50%, white 50%);
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    font-family: 'Teko', sans-serif;
+    /* margin: 1.5rem; */
+    margin:0;
+    padding: 0;    
+    }
+  
+  /* TITLE */
+  
+  .project_title {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction:row;
+    width:100%;
+    text-align:center;
+    font-size:20px;
+  }
+  
+  .project_headingLeft {
+    color: #1245FB;
+  }
+  
+  .project_headingRight {
+    color: #12FBD1
+  }
+  
+  /* 1. BUTTON */
+  
+    .button1 {
+    background-color: #1245FB;
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-family: 'Teko', sans-serif;
+    /* border-radius: 20px; */
+    text-align: center;
+    align-items: center;
+    margin-top: 20px;
+    }
+  
+  /* 2. BUTTON */
+  
+    /* .button2{
+      background-color: #12FBD1;
+      color: white;
+      padding: 9px;
+      font-size: 16px;
+      color: black;
+      border: none;
+      cursor: pointer;
+      font-family:'Monoton', cursive;
+      border-radius: 20px;
+    } */
+  
+  /* BUTTON 1 & 2 */
+  
+  .button1_2 {
+  
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      flex-direction:row;
+      width:100%;
+      text-align:center;
+    }
+
+        /* p5 canvas */
+      .project_wrapper{
+        display: flex;
+        text-align: center;
+        position: relative;
+        padding-bottom: 20%;
+        height: 0;
+        overflow: hidden;  
+        margin-top: 40px;
+        /* makes footer lower position by set the min-height of canvas wrap*/
+        min-height: 200px;
+      }
+    
+      .canvas_1{
+        flex: 1;
+        position: relative;
+        padding-bottom: 20%;
+        height: 0;
+        overflow: hidden; 
+      }
+      
+      .canvas_2{
+        flex: 1;
+        position: relative;
+        padding-bottom: 20%;
+        height: 0;
+        overflow: hidden;
+      }
+  
+    /* FOOTER */ 
+    .gotoEND{
+      width:100%;
+      /* min-width: 320px; */
+      font-size: x-large;
+      font-family: 'Teko', sans-serif;
+      color:#1245FB
+    }
+  
+    .team_name {
+      width:100%;
+      /* min-width: 320px; */
+      font-size: x-large;
+      font-family: 'Teko', sans-serif;
+      color: #12FBD1;
+    }
+  
+    .project_footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* flex-direction:row; */
+    /* width:100%; */
+    text-align:center;
+    /* margin-top: 100px; */
+    }
